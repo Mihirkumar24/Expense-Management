@@ -1,0 +1,11 @@
+#imageZoom::after {
+    background-image: var(--url);
+    background-position: var(--x) var(--y);
+    content: '';
+    display: var(--display);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
