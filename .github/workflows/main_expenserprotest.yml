@@ -52,4 +52,5 @@ jobs:
           app-name: 'ExpenserProTest'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_73A3278C417D425DBBFA206D5665BD88 }}
+
+          publish-profile: ${{ secrets.TEST }}
