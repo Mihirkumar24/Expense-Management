@@ -61,5 +61,14 @@ jobs:
         with:
           app-name: 'ExpenserProApplication'
           slot-name: 'Production'
-          package: .
+          package: ./xpenserpro-server
+
+     - name: Install client dependencies
+        run: npm install
+        working-directory: ./xpenserpro-client
+
+     - name: Build React app
+       run: npm run build
+       working-directory: ./xpenserpro-client    
+
           
